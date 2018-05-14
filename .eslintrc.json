@@ -4,15 +4,15 @@
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended", "prettier"],
+    "plugins": [
+        "standard",
+        "prettier"
+    ],
     "parserOptions": {
         "sourceType": "module"
     },
     "rules": {
-        "indent": [
-            "error",
-            4
-        ],
         "linebreak-style": [
             "error",
             "windows"
@@ -25,6 +25,7 @@
             "error",
             "always"
         ],
-        "no-console": "off"
+        "no-console": "off",
+        "prettier/prettier": "error"
     }
 }

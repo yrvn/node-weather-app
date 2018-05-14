@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0"
   }
 }
